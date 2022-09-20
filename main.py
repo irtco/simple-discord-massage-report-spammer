@@ -19,10 +19,6 @@ payload={
 
 url='https://discord.com/api/v9/report'
 
-r=requests.post(url=url, headers=header, json=payload)
-
-print(r.content)
-
 i=1
 
 while i<5:
